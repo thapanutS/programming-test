@@ -1,28 +1,31 @@
-Clone the repository:
-    git clone <repository-url>
+## Clone the repository
+
+```
+    git clone https://github.com/thapanutS/programming-test.git
     cd <repository-folder>
+```
 
-Install dependencies:
+## Install dependencies:
+
+```
     npm install
+```
 
-Install TypeScript globally (if not installed):
+## Install TypeScript globally (if not installed):
+```
     npm install -g typescript
+```
 
-Install ts-node for running TypeScript files directly:
+## Install ts-node for running TypeScript files directly:
+```
     npm install -g ts-node
+```
 
-Running the Code
-Compile TypeScript
-To compile the TypeScript file into JavaScript:
-    tsc getClockAngle.ts
-    tsc getQuestionPart.ts
+## Running the Code
+### Compile TypeScript
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `tsc getClockAngle.ts`             | To compile the TypeScript file into JavaScript                            |
+| `node getClockAngle.js`             | Run JavaScript      |
+| `ts-node getClockAngle.ts`           | Directly Run TypeScript with ts-node         |
 
-Run JavaScript
-After compilation, you can run the JavaScript files:
-    node getClockAngle.js
-    node getQuestionPart.js
-
-Directly Run TypeScript with ts-node
-Alternatively, you can run the TypeScript file directly without manual compilation using ts-node:
-    ts-node getClockAngle.ts
-    ts-node getQuestionPart.ts
