@@ -19,6 +19,3 @@ function getQuestionPart(phrases: string[]): string[] {
     }
     return phrases.map((phrase) => phrase.replace(wordPart, "").trim());
 }
-
-console.log(getQuestionPart(["BATHROOM", "BATH SALTS", "BLOODBATH"])); // ["ROOM", "SALTS", "BLOOD"]
-console.log(getQuestionPart(["BEFRIEND", "GIRLFRIEND", "FRIENDSHIP"])); // ["BE", "GIRL", "SHIP"]

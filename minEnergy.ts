@@ -43,5 +43,3 @@ function minEnergy(
       }
     }
   }
-
-  console.log(minEnergy(0, [4, 9], [3, 6, 8], 11));
